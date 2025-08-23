@@ -1,0 +1,40 @@
+CAPI=2:
+
+name: midimaster21b:utils:amd_ip_gen:0.1.0
+
+generators:
+  vivado_ip:
+    interpreter: python3
+    command: vivado_ip.py
+    description: Generate Vivado IP simulation files from TCL definitions
+    usage: |
+      The vivado_ip generator processes TCL files that define Vivado IP cores
+      and generates the necessary simulation files by running Vivado in batch mode.
+
+      This is useful for including AMD/Xilinx IP cores in FuseSoC simulations
+      without manually generating and managing IP files.
+
+      Parameters:
+        tcl_files (list): List of TCL files that define IP cores. Can also be a
+                          single string for one file. Paths are relative to the
+                          core's files_root.
+        project_name (str): Name of the temporary Vivado project (default: vivado_ip_gen)
+        part (str): Target FPGA part number (default: xc7a35ticsg324-1L)
+
+      Example usage in a core file:
+
+        generate:
+          axis_vip:
+            generator: vivado_ip
+            parameters:
+              tcl_files:
+                - m_axis_vip.tcl
+                - s_axis_vip.tcl
+              part: xcvu9p-flga2104-2L-e
+
+provider:
+  name     : github
+  user     : midimaster21b
+  repo     : amd-ip-generator
+  cachable : true
+  version  : v0.1.0

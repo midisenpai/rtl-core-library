@@ -1,0 +1,40 @@
+CAPI=2:
+name: midimaster21b:utils:sv_logger:0.1.0
+description: A basic SystemVerilog logger
+
+filesets:
+  rtl:
+    files:
+      - src/rtl/sv_logger.sv
+    file_type: systemVerilogSource
+
+  tb_smoke:
+    files:
+      - src/tb/sv_logger_smoke_tb.sv
+    file_type: systemVerilogSource
+
+targets:
+  # Special FuseSoC target
+  default: &default
+    default_tool: vivado
+    filesets:
+      - rtl
+
+  # Smoke simulation target
+  sim_smoke:
+    <<: *default
+    description: Simulate the design
+    default_tool: xsim
+    tools:
+      xsim:
+        xelab_options: [--debug all]
+    filesets_append:
+      - tb_smoke
+    toplevel: sv_logger_smoke_tb
+
+provider:
+  name     : github
+  user     : midimaster21b
+  repo     : sv-logging
+  cachable : true
+  version  : v0.1.0

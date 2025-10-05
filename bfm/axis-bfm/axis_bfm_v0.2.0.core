@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:bfm:axis:0.2.0
+name: midisenpai:bfm:axis:0.2.0
 description: A basic AXIS BFM
 
 filesets:
@@ -9,8 +9,8 @@ filesets:
       - src/rtl/axis_master_bfm.sv
     file_type: systemVerilogSource
     depend:
-      - midimaster21b:comm:amba-interfaces
-      - ">=midimaster21b:comm:handshake:0.1.2"
+      - midisenpai:comm:amba-interfaces
+      - ">=midisenpai:comm:handshake:0.1.2"
 
   tb:
     files:
@@ -35,7 +35,7 @@ targets:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : axis-bfm
   cachable : true
   version  : v0.2.0

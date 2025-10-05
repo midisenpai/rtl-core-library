@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:cryptography:sha256:0.1.0
+name: midisenpai:cryptography:sha256:0.1.0
 description: A basic implementation of the SHA-256 algorithm
 
 filesets:
@@ -82,6 +82,6 @@ targets:
 
 provider:
   name    : github
-  user    : midimaster21b
+  user    : midisenpai
   repo    : SHA-Module
   version : master

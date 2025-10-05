@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:cpus:zynq7:0.1.0
+name: midisenpai:cpus:zynq7:0.1.0
 description: Zynq7 processing system CPU
 
 filesets:
@@ -22,6 +22,6 @@ targets:
 
 provider:
   name    : github
-  user    : midimaster21b
+  user    : midisenpai
   repo    : cpu-cores
   version : master

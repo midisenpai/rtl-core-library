@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:comm:spi-master:0.1.2
+name: midisenpai:comm:spi-master:0.1.2
 description: A simple SPI master implementation
 
 filesets:
@@ -9,13 +9,13 @@ filesets:
       - src/rtl/spi_master_wrapper.vhd
     file_type: vhdlSource
     depend:
-    - ==midimaster21b:prim:ddr:0.1.1
+    - ==midisenpai:prim:ddr:0.1.1
 
   tb:
     files:
       - src/tb/spi_master_tb.sv
     file_type: systemVerilogSource
-    depend: [midimaster21b:bfm:axis, midimaster21b:bfm:spi, midimaster21b:comm:amba-interfaces]
+    depend: [midisenpai:bfm:axis, midisenpai:bfm:spi, midisenpai:comm:amba-interfaces]
 
   pkg_ip:
     files:
@@ -62,7 +62,7 @@ parameters:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : spi-master
   cachable : false
   version  : v0.1.2

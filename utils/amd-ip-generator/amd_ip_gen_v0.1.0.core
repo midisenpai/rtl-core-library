@@ -1,6 +1,6 @@
 CAPI=2:
 
-name: midimaster21b:utils:amd_ip_gen:0.1.0
+name: midisenpai:utils:amd_ip_gen:0.1.0
 
 generators:
   vivado_ip:
@@ -34,7 +34,7 @@ generators:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : amd-ip-generator
   cachable : true
   version  : v0.1.0

@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:comm:spi-master:0.1.0
+name: midisenpai:comm:spi-master:0.1.0
 description: A simple SPI master implementation
 
 filesets:
@@ -13,7 +13,7 @@ filesets:
     files:
       - src/tb/spi_master_tb.sv
     file_type: systemVerilogSource
-    depend: [midimaster21b:bfm:axis, midimaster21b:bfm:spi, midimaster21b:comm:amba-interfaces, midimaster21b:prim:ddr]
+    depend: [midisenpai:bfm:axis, midisenpai:bfm:spi, midisenpai:comm:amba-interfaces, midisenpai:prim:ddr]
 
 targets:
   # Special FuseSoC target
@@ -50,7 +50,7 @@ parameters:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : spi-master
   cachable : true
   version  : v0.1.0

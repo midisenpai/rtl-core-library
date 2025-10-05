@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:prim:ddr:0.1.0
+name: midisenpai:prim:ddr:0.1.0
 description: A quick pull together of oddr and iddr implementations
 
 filesets:
@@ -25,7 +25,7 @@ parameters:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : fpga-io-primitives
   cachable : true
   version  : v0.1.0

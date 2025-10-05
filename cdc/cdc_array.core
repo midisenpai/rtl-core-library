@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:cdc:array:0.1.0
+name: midisenpai:cdc:array:0.1.0
 description: A basic clock domain crossing module for an array of bits
 
 filesets:
@@ -8,7 +8,7 @@ filesets:
       - src/rtl/cdc_array.vhd
     file_type: vhdlSource
     depend:
-      - midimaster21b:cdc:bit:0.1.0
+      - midisenpai:cdc:bit:0.1.0
 
   tb:
     files:
@@ -33,6 +33,6 @@ targets:
 
 provider:
   name    : github
-  user    : midimaster21b
+  user    : midisenpai
   repo    : clock-domain-crossing
   version : master

@@ -6,7 +6,7 @@ This is a set of common RTL cores that I've developed over time and organized in
 
 1. Add this library to your set of cores
 
-`fusesoc library add --sync-type git --global midi-cores https://github.com/midimaster21b/rtl-core-library.git`
+`fusesoc library add --sync-type git --global midi-cores https://github.com/midisenpai/rtl-core-library.git`
 
 2. Verify that the library is present
 
@@ -16,7 +16,7 @@ This is a set of common RTL cores that I've developed over time and organized in
 
    ```
    Name       : Location                                            : Sync type : Sync URI                                              : Auto sync
-   midi-cores : /home/midimaster21b/.local/share/fusesoc/midi-cores : git       : https://github.com/midimaster21b/rtl-core-library.git : y
+   midi-cores : /home/midisenpai/.local/share/fusesoc/midi-cores : git       : https://github.com/midisenpai/rtl-core-library.git : y
    ```
 
 3. View your shiny new cores!

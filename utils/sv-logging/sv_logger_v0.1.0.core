@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:utils:sv_logger:0.1.0
+name: midisenpai:utils:sv_logger:0.1.0
 description: A basic SystemVerilog logger
 
 filesets:
@@ -34,7 +34,7 @@ targets:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : sv-logging
   cachable : true
   version  : v0.1.0

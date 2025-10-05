@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:video:frame-cleaner:0.1.0
+name: midisenpai:video:frame-cleaner:0.1.0
 description: An video AXI stream frame cleaner made to ensure frames are appropriately formatted
 
 filesets:
@@ -21,7 +21,7 @@ targets:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : axis-video-frame-cleaner
   cachable : false
   version  : master

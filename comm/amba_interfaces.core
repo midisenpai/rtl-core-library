@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:comm:amba-interfaces:0.1.0
+name: midisenpai:comm:amba-interfaces:0.1.0
 description: A set of AMBA interface definitions
 
 filesets:
@@ -25,7 +25,7 @@ targets:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : amba-interfaces
   cachable : false
   version  : master

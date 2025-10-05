@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:comm:handshake:0.1.1
+name: midisenpai:comm:handshake:0.1.1
 description: The core hardware handshake
 
 filesets:
@@ -37,7 +37,7 @@ targets:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : handshake
   cachable : true
   version  : v0.1.1

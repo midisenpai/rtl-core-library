@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:utils:mem_model:0.1.0
+name: midisenpai:utils:mem_model:0.1.0
 description: A basic simulation memory model
 
 filesets:
@@ -34,7 +34,7 @@ targets:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : memory-model
   cachable : true
   version  : v0.1.0

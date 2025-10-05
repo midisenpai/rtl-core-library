@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:cdc:bit:0.1.0
+name: midisenpai:cdc:bit:0.1.0
 description: A basic clock domain crossing module for a single bit
 
 filesets:
@@ -31,6 +31,6 @@ targets:
 
 provider:
   name    : github
-  user    : midimaster21b
+  user    : midisenpai
   repo    : clock-domain-crossing
   version : master

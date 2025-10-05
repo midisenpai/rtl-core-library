@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:bfm:axi4:0.1.1
+name: midisenpai:bfm:axi4:0.1.1
 description: A basic AXI4 BFM
 
 filesets:
@@ -9,8 +9,8 @@ filesets:
       - src/rtl/axi4_master_bfm.sv
     file_type: systemVerilogSource
     depend:
-      - midimaster21b:comm:amba-interfaces
-      - ">=midimaster21b:comm:handshake:0.1.3"
+      - midisenpai:comm:amba-interfaces
+      - ">=midisenpai:comm:handshake:0.1.3"
 
   tb_smoke:
     files:
@@ -55,7 +55,7 @@ targets:
 
 provider:
   name     : github
-  user     : midimaster21b
+  user     : midisenpai
   repo     : axi4-bfm
   cachable : false
   version  : v0.1.1

@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:vhdl:type_conv:0.1.0
+name: midisenpai:vhdl:type_conv:0.1.0
 description: A set of VHDL type conversion functions
 
 filesets:
@@ -19,6 +19,6 @@ targets:
 
 provider:
   name: github
-  user: midimaster21b
+  user: midisenpai
   repo: vhdl-type-conversions
   version: v0.1.0
